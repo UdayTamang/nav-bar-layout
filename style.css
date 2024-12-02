@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+}
+
+
+.top-nav-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin:0px;
+  padding: 0;
+  background-color: lightblue;
+}
+
+
+.left-section{
+ padding-left: 40px;
+}
+
+.right-section{
+  padding-right: 40px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: lightpink;
+  height: 30px;
+  width: 400px;
+  align-items: center;
+  gap: 50px;
+  margin-right: 10px;
+}
+
+.right-section a{
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+
+.middle-section input{
+  width: 300px;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+ 
+}
