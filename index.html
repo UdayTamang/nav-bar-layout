@@ -3,56 +3,69 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Header Section -->
+  <header class="navbar">
+    <div class="logo">My Portfolio</div>
+    <nav class="nav-links">
+      <a href="#hero">Home</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <div class="hero-left">
+      <h1>Hi, I'm [Your Name]</h1>
+      <p>Welcome to my personal portfolio. I am a passionate designer and developer!</p>
+      <a href="#portfolio" class="hero-button">View My Work</a>
+    </div>
+    <div class="hero-right">
+      <img src="https://s.hdnux.com/photos/01/11/66/36/19359618/25/1200x0.jpg" alt="Profile Image" class="profile-image">
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio-section">
+    <h2>My Projects</h2>
+    <div class="projects-container">
+      <!-- Repeat this block for each project -->
+      <div class="project-card">
+        <img src="https://th.bing.com/th/id/OIP.jHvTOSF7924Ah63W7mozxQHaEo?rs=1&pid=ImgDetMain" alt="Project Image" class="project-image">
+        <div class="project-description">
+          <h3>Project Title</h3>
+          <p>Short description of the project.</p>
+        </div>
+      </div>
+    </div>
+  </section>
   
 
+  <!-- About Me Section -->
+  <section id="about" class="about-section">
+    <h2>About Me</h2>
+    <p>I am a creative professional with experience in design and web development...</p>
+  </section>
 
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <h2>Contact Me</h2>
+    <form action="#">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
 
-<div class="top-nav-bar">  <!-- ---------------top-nav-bar------------------- -->
-
-
-
-
-  <div class="left-section">  <!-- ---------------left-section-div------------------- -->
-
-    <H3>My design</H3>
-
-   </div> <!-- ---------------left-section-div-end------------------ -->
-
-
-
-
-   <div class="middle-section"><!-- ---------------middle-section-div-end------------------ -->
-
-    <input type="text" placeholder="Search for more">
-
-   </div><!-- ---------------middle-section-div-end------------------ -->
-
-
-   
-
-   <div class="right-section"><!-- ---------------middle-section-div-end------------------ -->
-         
-  <a href="#">Account</a>
-  <a href="#">About</a>
-  <a href="#">Conatact</a>
-  <a href="#">Log-In</a>
-   
-   </div><!-- ---------------middle-section-div-end------------------ -->
-
-
-
-
-
-
-
-</div>  <!-- ---------------top-nav-bar-end------------------ -->
-
-
-
-
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2024 [Your Name]. All Rights Reserved.</p>
+  </footer>
 </body>
 </html>
